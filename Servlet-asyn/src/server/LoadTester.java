@@ -13,6 +13,7 @@ public class LoadTester {
 
 	public static final AtomicInteger counter = new AtomicInteger(0);
 	public static final int maxThreadCount = 100;
+	
 	public static void main(String[] args) throws InterruptedException {
 		new LoadTester();
 	}

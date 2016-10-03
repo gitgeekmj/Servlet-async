@@ -18,7 +18,7 @@ name = "simple",
 value = { "/simple" },
 // async support needed
 asyncSupported = true)
-public class SimpleAsyncServlet extends HttpServlet {
+public class simple extends HttpServlet {
 
 	/**
 	 * Simply spawn a new thread (from the app server's pool) for every new
